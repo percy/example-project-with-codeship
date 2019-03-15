@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "test": "node run-tests.js"
+    "test": "node run-tests.js",
+    "server": "python -m SimpleHTTPServer 8000"
   },
   "dependencies": {
     "chai": "^4.2.0",
