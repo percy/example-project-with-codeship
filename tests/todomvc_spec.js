@@ -36,6 +36,6 @@ describe('TodoMVC', function() {
     await page.type('.new-todo', 'New fancy todo')
     await page.keyboard.press('Enter')
     const todoCount = await page.evaluate(() => document.querySelectorAll('.todo-list li').length)
-    todoCount.should.eq(0)
+    todoCount.should.eq(1)
   })
 })
