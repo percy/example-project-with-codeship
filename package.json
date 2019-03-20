@@ -1,11 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "test": "percy exec -- node run-tests.js",
-    "server": "python -m SimpleHTTPServer 8000"
+    "test": "node run-tests.js",
+    "start": "python -m SimpleHTTPServer 8000"
   },
   "dependencies": {
-    "@percy/puppeteer": "^1.0.5",
     "chai": "^4.2.0",
     "mocha": "^6.0.2",
     "todomvc-app-css": "^2.2.0",
