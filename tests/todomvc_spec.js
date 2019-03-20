@@ -7,7 +7,7 @@ const puppeteerArgs = /^win/.test(platform) ? [] : [ '--single-process' ]
 
 const TEST_URL = "http://localhost:8000"
 
-describe('TodoMVC', function() {
+describe('TodoMVC App', function() {
   let browser = null
   let page = null
 
